@@ -1,0 +1,60 @@
+export const AVAILABLE_METRICS = [
+  { id: 'spend', label: 'Spend', category: 'Delivery', type: 'currency' },
+  { id: 'impressions', label: 'Impressions', category: 'Delivery', type: 'number' },
+  { id: 'reach', label: 'Reach', category: 'Delivery', type: 'number' },
+  { id: 'frequency', label: 'Frequency', category: 'Delivery', type: 'number' },
+  { id: 'cpm', label: 'CPM', category: 'Delivery', type: 'currency' },
+  { id: 'clicks', label: 'Clicks', category: 'Engagement', type: 'number' },
+  { id: 'ctr', label: 'CTR', category: 'Engagement', type: 'percentage' },
+  { id: 'cpc', label: 'CPC', category: 'Engagement', type: 'currency' },
+  { id: 'inline_link_clicks', label: 'Unique Link Clicks', category: 'Engagement', type: 'number' },
+  { id: 'outbound_clicks', label: 'Outbound Clicks', category: 'Engagement', type: 'number' },
+  { id: 'outbound_ctr', label: 'Outbound CTR', category: 'Engagement', type: 'percentage' },
+  { id: 'video_views', label: 'Video Views', category: 'Video', type: 'number' },
+  { id: 'video_avg_time_watched', label: 'Avg Watch Time', category: 'Video', type: 'number' },
+  { id: 'video_p25_watched_actions', label: 'Video 25% Views', category: 'Video', type: 'number' },
+  { id: 'video_p50_watched_actions', label: 'Video 50% Views', category: 'Video', type: 'number' },
+  { id: 'video_p75_watched_actions', label: 'Video 75% Views', category: 'Video', type: 'number' },
+  { id: 'video_p100_watched_actions', label: 'Video 100% Views', category: 'Video', type: 'number' },
+  { id: 'conversions', label: 'Conversions', category: 'Conversion', type: 'number' },
+  { id: 'cost_per_conversion', label: 'Cost per Conversion', category: 'Conversion', type: 'currency' },
+  { id: 'roas', label: 'ROAS', category: 'Conversion', type: 'number' },
+  { id: 'purchase_roas', label: 'Purchase ROAS', category: 'Conversion', type: 'number' },
+  { id: 'revenue', label: 'Revenue', category: 'Conversion', type: 'currency' },
+  { id: 'view_content', label: 'View Content', category: 'Conversion', type: 'number' },
+  { id: 'subscribe', label: 'Subscribe', category: 'Conversion', type: 'number' },
+  { id: 'lead', label: 'Lead', category: 'Conversion', type: 'number' },
+  { id: 'add_to_cart', label: 'Add to Cart', category: 'Conversion', type: 'number' },
+  { id: 'initiate_checkout', label: 'Initiate Checkout', category: 'Conversion', type: 'number' },
+  { id: 'contact', label: 'Contact', category: 'Conversion', type: 'number' },
+  { id: 'customize_product', label: 'Customize Product', category: 'Conversion', type: 'number' },
+  { id: 'donate', label: 'Donate', category: 'Conversion', type: 'number' },
+  { id: 'find_location', label: 'Find Location', category: 'Conversion', type: 'number' },
+  { id: 'schedule', label: 'Schedule', category: 'Conversion', type: 'number' },
+  { id: 'search', label: 'Search', category: 'Conversion', type: 'number' },
+  { id: 'start_trial', label: 'Start Trial', category: 'Conversion', type: 'number' },
+  { id: 'submit_application', label: 'Submit Application', category: 'Conversion', type: 'number' },
+];
+
+export const ATTRIBUTION_WINDOWS = [
+  { id: '7d_click_1d_view', label: '7-day click, 1-day view' },
+  { id: '1d_click_1d_view', label: '1-day click, 1-day view' },
+  { id: '7d_click', label: '7-day click' },
+  { id: '1d_click', label: '1-day click' },
+];
+
+export const REPORTING_LEVELS = [
+  { id: 'ad', label: 'Ad Level' },
+  { id: 'adset', label: 'Ad Set Level' },
+  { id: 'campaign', label: 'Campaign Level' },
+];
+
+export const BREAKDOWN_DIMENSIONS = [
+  { id: 'publisher_platform', label: 'Platform' },
+  { id: 'platform_position', label: 'Placement' },
+  { id: 'device_platform', label: 'Device' },
+  { id: 'age', label: 'Age' },
+  { id: 'gender', label: 'Gender' },
+  { id: 'country', label: 'Country' },
+  { id: 'region', label: 'Region' },
+];
